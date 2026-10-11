@@ -6,6 +6,20 @@
 
 ---
 
+## 촉각 칼라 북과 칼라 픽토그램
+
+시각장애인이 손끝으로 색채를 인지하고 미술 작품을 온전히 감상할 수 있도록 개발된 **촉각 칼라 북**을 디지털 아트 게임으로 옮겼습니다. 손끝의 촉각적 경험을 디지털 화면과 인터랙션으로 확장하였습니다.
+
+조준동 교수가 발명한 칼라 픽토그램은 특허(제10-2019-0163993호, 발명자: 조준동)로 출원·등록되었고, 세계 주요 색채 학회(ISCC 등)가 공인한 국제 저널 *Color Research & Application*에 게재되어 학술적·산업적 우수성을 인정받았습니다.
+
+- 국제 색채학 권위지 *Color Research & Application*(2021)에 게재 — Cho, Jun Dong, et al. "Tactile colour pictogram to improve artwork appreciation of people with visual impairments." *Color Research & Application* 46.1 (2021): 103–116.
+- *Color Research & Application*은 미국 Wiley 출판사가 펴내는 논문지로, 국제 색채 학회 협의체(Inter-Society Color Council, ISCC) 등 세계 주요 색채 학회가 공인한 색채학 분야의 대표 저널입니다.
+- 한글의 모음처럼 천지인 철학을 바탕으로 재해석한 다감각 색채 픽토그램 시스템
+- 색을 구별하기 어려워 미술관 방문을 주저했던 시각장애인을 위해, 미술품에 색을 실시간으로 입혀 직관적으로 색을 인지할 수 있게 함
+- 응용 분야: 색채 측정, 색각 심리, 디자인, 포용적 예술 감상
+
+---
+
 ## 천지인 칼라 패턴
 
 | 색 | 천지인 | 무늬 | 연상 |
@@ -75,27 +89,11 @@
 
 ---
 
-## 파일 구성
+## 감상하기 / Visit
 
-```
-index.html                  ← 게임 전체 (무늬 그림 31개와 명화 영역 지도가 파일 안에 들어 있음)
-paintings/
-  vangogh-line.png          vangogh-pattern.png
-  picasso-line.png          picasso-pattern.png
-  matisse-line.png          matisse-pattern.png
-  kahlo-line.png            kahlo-pattern.png
-  gauguin-line.png          gauguin-pattern.png
-README.md
-```
+https://jdcho0721.github.io/Tactile-Color-Pattern/ — 열면 게임 사이트로 자동 이동합니다. 휴대폰·태블릿·PC 브라우저에서 설치 없이 바로 쓸 수 있습니다.
 
-`paintings` 폴더(그림 10개)는 **명화에 무늬 입히기**에만 쓰입니다. 폴더는 `index.html`과 같은 곳에 두어야 합니다.
-
-## 실행 방법
-
-- **파일로 열기:** `index.html`을 브라우저로 열면 됩니다. 명화도 파일로 연 상태에서 동작합니다.
-- **웹에 올리기:** 폴더를 통째로 GitHub Pages나 일반 웹 서버에 올리면 됩니다. 따로 빌드하거나 설치할 것은 없습니다.
-- **인터넷 연결:** 글꼴(Gowun Batang·Gowun Dodum)은 Google Fonts에서 받아 옵니다. 인터넷이 없으면 기기 기본 글꼴로 보입니다.
-- **권장 브라우저:** 안드로이드 Chrome, 아이폰 Safari, PC의 Chrome·Edge·Safari 최신판. 앱 음성은 브라우저의 한국어 음성 합성(Web Speech API)을 씁니다. 한국어 음성이 없는 기기에서는 자막만 나옵니다.
+전시 캡션 라벨(QR 포함): [label-QR.html](./label-QR.html)
 
 ## 저장되는 정보
 
